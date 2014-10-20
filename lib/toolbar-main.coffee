@@ -4,6 +4,8 @@ module.exports =
       .then (pkg) =>
         @toolbar = pkg.mainModule
 
+        @toolbar.appendSpacer()
+
         @toolbar.appendButton 'file-code', 'application:new-file', 'New File'
         @toolbar.appendButton 'file-directory', 'application:open-file', 'Open...'
         @toolbar.appendButton 'cloud-download', 'application:save', 'Save'
