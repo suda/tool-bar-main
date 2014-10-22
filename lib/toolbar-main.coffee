@@ -20,6 +20,14 @@ module.exports =
         @toolbar.appendButton 'navicon-round', 'command-palette:toggle', 'Toggle Command Palette', 'ion'
         @toolbar.appendButton 'gear-a', 'settings-view:open', 'Open Settings View', 'ion'
 
+        if atom.inDevMode()
+          @toolbar.appendSpacer()
+
+          @toolbar.appendButton 'refresh', 'window:reload', 'Reload Window', 'ion'
+          @toolbar.appendButton 'terminal', ->
+            require('remote').getCurrentWindow().toggleDevTools()
+          , 'Toggle Developer Tools'
+
   deactivate: ->
 
   serialize: ->
