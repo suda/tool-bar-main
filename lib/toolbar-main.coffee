@@ -6,19 +6,19 @@ module.exports =
 
         @toolbar.appendSpacer()
 
-        @toolbar.appendButton 'file-code', 'application:new-file', 'New File'
-        @toolbar.appendButton 'file-directory', 'application:open-file', 'Open...'
-        @toolbar.appendButton 'cloud-download', 'application:save', 'Save'
+        @toolbar.appendButton 'document', 'application:new-file', 'New File', 'ion'
+        @toolbar.appendButton 'folder', 'application:open-file', 'Open...', 'ion'
+        @toolbar.appendButton 'code-download', 'application:save', 'Save', 'ion'
 
         @toolbar.appendSpacer()
 
-        @toolbar.appendButton 'search', 'find-and-replace:show', 'Find in Buffer'
-        @toolbar.appendButton 'git-compare', 'find-and-replace:show-replace', 'Replace in Buffer'
+        @toolbar.appendButton 'search', 'find-and-replace:show', 'Find in Buffer', 'ion'
+        @toolbar.appendButton 'shuffle', 'find-and-replace:show-replace', 'Replace in Buffer', 'ion'
 
         @toolbar.appendSpacer()
 
-        @toolbar.appendButton 'book', 'command-palette:toggle', 'Toggle Command Palette'
-        @toolbar.appendButton 'gear', 'settings-view:open', 'Open Settings View'
+        @toolbar.appendButton 'navicon-round', 'command-palette:toggle', 'Toggle Command Palette', 'ion'
+        @toolbar.appendButton 'gear-a', 'settings-view:open', 'Open Settings View', 'ion'
 
   deactivate: ->
 
