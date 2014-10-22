@@ -2,7 +2,7 @@
 
 Simple toolbar using [toolbar](https://atom.io/packages/toolbar) package.
 
-![Main Toolbar](http://f.cl.ly/items/2d0K3x133j110e0D0446/Screenshot-2014-10-20-16.34.38.png)
+![Main Toolbar](http://f.cl.ly/items/3B3O471G3h3d0x0l0313/Screenshot-2014-10-22-11.37.54.png)
 
 # Buttons
 
@@ -13,3 +13,8 @@ Simple toolbar using [toolbar](https://atom.io/packages/toolbar) package.
 * Replace in Buffer
 * Toggle Command Palette
 * Open Settings View
+
+When in **dev mode** it adds two more buttons:
+
+* Reload Window
+* Toggle Developer Tools
