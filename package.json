@@ -10,6 +10,6 @@
   },
   "dependencies": {},
   "packageDependencies": {
-    "toolbar": "0.0.2"
+    "toolbar": "0.0.4"
   }
 }
