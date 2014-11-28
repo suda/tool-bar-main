@@ -8,7 +8,7 @@ module.exports =
 
         @toolbar.appendButton 'document', 'application:new-file', 'New File', 'ion'
         @toolbar.appendButton 'folder', 'application:open-file', 'Open...', 'ion'
-        @toolbar.appendButton 'code-download', 'core:save', 'Save', 'ion'
+        @toolbar.appendButton 'archive', 'core:save', 'Save', 'ion'
 
         @toolbar.appendSpacer()
 
