@@ -5,60 +5,60 @@ module.exports =
 
   serialize: ->
 
-  consumeToolBar: (toolbar) ->
-    @toolbar = toolbar 'main-tool-bar'
+  consumeToolBar: (toolBar) ->
+    @toolBar = toolBar 'main-tool-bar'
 
-    @toolbar.addButton
+    @toolBar.addButton
       icon: 'document'
       callback: 'application:new-file'
       tooltip: 'New File'
       iconset: 'ion'
-    @toolbar.addButton
+    @toolBar.addButton
       icon: 'folder'
       callback: 'application:open-file'
       tooltip: 'Open...'
       iconset: 'ion'
-    @toolbar.addButton
+    @toolBar.addButton
       icon: 'archive'
       callback: 'core:save'
       tooltip: 'Save'
       iconset: 'ion'
 
-    @toolbar.addSpacer()
+    @toolBar.addSpacer()
 
-    @toolbar.addButton
+    @toolBar.addButton
       icon: 'search'
       callback: 'find-and-replace:show'
       tooltip: 'Find in Buffer'
       iconset: 'ion'
-    @toolbar.addButton
+    @toolBar.addButton
       icon: 'shuffle'
       callback: 'find-and-replace:show-replace'
       tooltip: 'Replace in Buffer'
       iconset: 'ion'
 
-    @toolbar.addSpacer()
+    @toolBar.addSpacer()
 
-    @toolbar.addButton
+    @toolBar.addButton
       icon: 'navicon-round'
       callback: 'command-palette:toggle'
       tooltip: 'Toggle Command Palette'
       iconset: 'ion'
-    @toolbar.addButton
+    @toolBar.addButton
       icon: 'gear-a'
       callback: 'settings-view:open'
       tooltip: 'Open Settings View'
       iconset: 'ion'
 
     if atom.inDevMode()
-      @toolbar.addSpacer()
+      @toolBar.addSpacer()
 
-      @toolbar.addButton
+      @toolBar.addButton
         icon: 'refresh'
         callback: 'window:reload'
         tooltip: 'Reload Window'
         iconset: 'ion'
-      @toolbar.addButton
+      @toolBar.addButton
         icon: 'terminal'
         callback: ->
           require('remote').getCurrentWindow().toggleDevTools()

@@ -1,16 +1,20 @@
 {
   "name": "toolbar-main",
-  "main": "./lib/toolbar-main",
+  "main": "./lib/tool-bar-main",
   "version": "0.0.6",
-  "description": "Main toolbar",
-  "repository": "https://github.com/suda/toolbar-main",
+  "description": "Main tool bar",
+  "repository": "https://github.com/suda/tool-bar-main",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
+  "keywords": [
+    "toolbar",
+    "tool-bar"
+  ],
   "dependencies": {},
   "packageDependencies": {
-    "toolbar": "0.0.16"
+    "tool-bar": "0.1.0"
   },
   "consumedServices": {
     "tool-bar": {
