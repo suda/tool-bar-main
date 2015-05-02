@@ -1,5 +1,5 @@
 {
-  "name": "toolbar-main",
+  "name": "tool-bar-main",
   "main": "./lib/tool-bar-main",
   "version": "0.0.6",
   "description": "Main tool bar",
