@@ -1,7 +1,7 @@
 {
   "name": "tool-bar-main",
   "main": "./lib/tool-bar-main",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Main tool bar",
   "repository": "https://github.com/suda/tool-bar-main",
   "license": "MIT",
