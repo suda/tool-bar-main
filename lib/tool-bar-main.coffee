@@ -2,6 +2,7 @@ module.exports =
   activate: (state) ->
 
   deactivate: ->
+    @toolBar?.removeItems()
 
   serialize: ->
 
