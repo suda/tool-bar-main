@@ -1,5 +1,6 @@
 module.exports =
   activate: (state) ->
+    require('atom-package-deps').install('tool-bar-main')
 
   deactivate: ->
     @toolBar?.removeItems()
