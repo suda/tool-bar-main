@@ -12,7 +12,10 @@
     "toolbar",
     "tool-bar"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "atom-package-deps": "^3.0.7"
+  },
+  "package-deps": ["tool-bar"],
   "packageDependencies": {
     "tool-bar": "0.1.1"
   },
