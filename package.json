@@ -1,7 +1,7 @@
 {
   "name": "tool-bar-main",
   "main": "./lib/tool-bar-main",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Main tool bar",
   "repository": "https://github.com/suda/tool-bar-main",
   "license": "MIT",
@@ -15,7 +15,9 @@
   "dependencies": {
     "atom-package-deps": "^3.0.7"
   },
-  "package-deps": ["tool-bar"],
+  "package-deps": [
+    "tool-bar"
+  ],
   "packageDependencies": {
     "tool-bar": "0.1.1"
   },
