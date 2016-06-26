@@ -1,31 +1,31 @@
 {
-  "name": "tool-bar-main",
-  "main": "./lib/tool-bar-main",
-  "version": "0.0.9",
-  "description": "Main tool bar",
-  "repository": "https://github.com/suda/tool-bar-main",
-  "license": "MIT",
-  "engines": {
-    "atom": ">0.50.0"
-  },
-  "keywords": [
-    "toolbar",
-    "tool-bar"
-  ],
-  "dependencies": {
-    "atom-package-deps": "^3.0.7"
-  },
-  "package-deps": [
-    "tool-bar"
-  ],
-  "packageDependencies": {
-    "tool-bar": "0.1.1"
-  },
-  "consumedServices": {
-    "tool-bar": {
-      "versions": {
-        "^0.1.0": "consumeToolBar"
-      }
-    }
-  }
+	"name": "tool-bar-main",
+	"version": "0.0.10",
+	"description": "Main tool bar",
+    "repository":{
+        "type": "git",
+        "url": "https://github.com/suda/tool-bar-main"
+    },
+	"keywords": [
+		"toolbar",
+		"tool-bar"
+	],
+	"license": "MIT",
+	"main": "./lib/tool-bar-main",
+	"dependencies": {
+		"atom-package-deps": "^3.0.7"
+	},
+	"engines": {
+		"atom": ">0.50.0"
+	},
+	"package-deps": [
+		"tool-bar"
+	],
+	"consumedServices": {
+		"tool-bar": {
+			"versions": {
+				"^0 || ^1": "consumeToolBar"
+			}
+		}
+	}
 }
