@@ -2,10 +2,10 @@
   "name": "tool-bar-main",
   "version": "0.0.10",
   "description": "Main tool bar",
-    "repository":{
-        "type": "git",
-        "url": "https://github.com/suda/tool-bar-main"
-    },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:suda/tool-bar-main.git"
+  },
   "keywords": [
     "toolbar",
     "tool-bar"
@@ -13,7 +13,7 @@
   "license": "MIT",
   "main": "./lib/tool-bar-main",
   "dependencies": {
-    "atom-package-deps": "^3.0.7"
+    "atom-package-deps": "^4.6.1"
   },
   "engines": {
     "atom": ">0.50.0"
