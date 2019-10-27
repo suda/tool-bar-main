@@ -11,17 +11,17 @@ module.exports =
     @toolBar = toolBar 'main-tool-bar'
 
     @toolBar.addButton
-      icon: 'document'
+      icon: 'ios-document'
       callback: 'application:new-file'
       tooltip: 'New File'
       iconset: 'ion'
     @toolBar.addButton
-      icon: 'folder'
+      icon: 'ios-folder'
       callback: 'application:open-file'
       tooltip: 'Open...'
       iconset: 'ion'
     @toolBar.addButton
-      icon: 'archive'
+      icon: 'ios-archive'
       callback: 'core:save'
       tooltip: 'Save'
       iconset: 'ion'
@@ -29,12 +29,12 @@ module.exports =
     @toolBar.addSpacer()
 
     @toolBar.addButton
-      icon: 'search'
+      icon: 'ios-search'
       callback: 'find-and-replace:show'
       tooltip: 'Find in Buffer'
       iconset: 'ion'
     @toolBar.addButton
-      icon: 'shuffle'
+      icon: 'ios-shuffle'
       callback: 'find-and-replace:show-replace'
       tooltip: 'Replace in Buffer'
       iconset: 'ion'
@@ -42,12 +42,12 @@ module.exports =
     @toolBar.addSpacer()
 
     @toolBar.addButton
-      icon: 'navicon-round'
+      icon: 'ios-list-box'
       callback: 'command-palette:toggle'
       tooltip: 'Toggle Command Palette'
       iconset: 'ion'
     @toolBar.addButton
-      icon: 'gear-a'
+      icon: 'ios-cog'
       callback: 'settings-view:open'
       tooltip: 'Open Settings View'
       iconset: 'ion'
@@ -56,7 +56,7 @@ module.exports =
       @toolBar.addSpacer()
 
       @toolBar.addButton
-        icon: 'refresh'
+        icon: 'ios-refresh'
         callback: 'window:reload'
         tooltip: 'Reload Window'
         iconset: 'ion'
